@@ -9,7 +9,7 @@ const skillsData = [
         name: "Développement Backend",
         icon: "server",
         description: "Développement backend avec Python et frameworks associés",
-        size: "wide",
+        size: "normal",
         skills: [
             {
                 id: "python-oop",
@@ -336,72 +336,6 @@ const skillsData = [
         ],
     },
     {
-        id: "algorithms",
-        name: "Algorithmes",
-        icon: "code",
-        description:
-            "Algorithmes de traitement, d'optimisation et d'aide à la décision",
-        size: "normal",
-        skills: [
-            {
-                id: "musical",
-                name: "Pour la théorie musicale",
-                icon: "music",
-                description:
-                    "Chaînes d'algorithmes de nommage de tous les accords possibles à partir d'un paquet de 3 à 7 notes",
-                githubLinks: [
-                    {
-                        title: "Résultat opérationnel du nommage sur le site Harmotone",
-                        url: "https://harmotone.net",
-                    },
-                ],
-            },
-            {
-                id: "financial",
-                name: "Pour la finance, avec optimisation BigO",
-                icon: "trending-up",
-                description:
-                    "Algorithmes d'aide à la décision financière - Bruteforce récursifs et glouton optimisé",
-                githubLinks: [
-                    {
-                        title: "Algorithme bruteforce récursif pour la décision d'investissements financiers",
-                        url: "https://github.com/AdeVedA/AlgoInvestor--OCR_Mission6/blob/main/bruteforce.py",
-                    },
-                    {
-                        title: "Algorithme glouton optimisé pour la décision d'investissements financiers",
-                        url: "https://github.com/AdeVedA/AlgoInvestor--OCR_Mission6/blob/main/optimized.py",
-                    },
-                ],
-            },
-            {
-                id: "data-structures",
-                name: "Structures de Données",
-                icon: "layers",
-                description:
-                    "Implémentation efficace des structures de données en Python",
-                githubLinks: [
-                    {
-                        title: "Scraping ETL de librairie en ligne",
-                        url: "https://github.com/AdeVedA/BScraper--Ocr_Mission1",
-                    },
-                ],
-            },
-            {
-                id: "data-analysis",
-                name: "Analyse de Données",
-                icon: "bar-chart",
-                description:
-                    "Analyse et visualisation de données avec matplotlib",
-                githubLinks: [
-                    {
-                        title: "Usage de matplotlib pour les schémas du readme",
-                        url: "https://github.com/AdeVedA/AlgoInvestor--OCR_Mission6/",
-                    },
-                ],
-            },
-        ],
-    },
-    {
         id: "misc",
         name: "Autres Compétences",
         icon: "plus-circle",
@@ -430,6 +364,53 @@ const skillsData = [
                 ],
             },
             {
+                id: "musical",
+                name: "Algorithmes & théorie musicale",
+                icon: "music",
+                description:
+                    "Chaînes d'algorithmes de nommage de tous les accords possibles à partir d'un paquet de 3 à 7 notes",
+                githubLinks: [
+                    {
+                        title: "Résultat opérationnel de l'algorithme de nommage sur le site Harmotone",
+                        url: "https://harmotone.net",
+                    },
+                ],
+            },
+            {
+                id: "financial",
+                name: "Algorithmes pour la finance, avec optimisation BigO",
+                icon: "trending-up",
+                description:
+                    "Algorithmes d'aide à la décision financière - Bruteforce récursifs et glouton optimisé",
+                githubLinks: [
+                    {
+                        title: "Algorithme bruteforce récursif pour la décision d'investissements financiers",
+                        url: "https://github.com/AdeVedA/AlgoInvestor--OCR_Mission6/blob/main/bruteforce.py",
+                    },
+                    {
+                        title: "Algorithme glouton optimisé pour la décision d'investissements financiers",
+                        url: "https://github.com/AdeVedA/AlgoInvestor--OCR_Mission6/blob/main/optimized.py",
+                    },
+                ],
+            },
+            {
+                id: "data-structures",
+                name: "Analyse et Structures de Données",
+                icon: "layers",
+                description:
+                    "Implémentation, analyse et visualisation des structures de données en Python",
+                githubLinks: [
+                    {
+                        title: "structuration de données en Python pour un scraping ETL de librairie en ligne",
+                        url: "https://github.com/AdeVedA/BScraper--Ocr_Mission1",
+                    },
+                    {
+                        title: "Analyse et visualisation de données avec matplotlib pour les schémas du readme",
+                        url: "https://github.com/AdeVedA/AlgoInvestor--OCR_Mission6/",
+                    },
+                ],
+            },
+            {
                 id: "jwt",
                 name: "Authentification & Sécurité",
                 icon: "key",
@@ -443,22 +424,6 @@ const skillsData = [
                     {
                         title: "bcrypt - Gestionnaire de relation client Epic Events en MVC - CLI",
                         url: "https://github.com/AdeVedA/EpicEventsCRM--OCR_Mission11/blob/main/models/models.py",
-                    },
-                ],
-            },
-            {
-                id: "rgpd",
-                name: "RGPD",
-                icon: "shield",
-                description: "Conformité RGPD",
-                githubLinks: [
-                    {
-                        title: "API RESTful sécurisée pour la gestion collaborative de projets et le suivi des problèmes techniques",
-                        url: "https://github.com/AdeVedA/SoftDeskAPI--OCR_Mission9",
-                    },
-                    {
-                        title: "Gestionnaire de relation client Epic Events en MVC - CLI",
-                        url: "https://github.com/AdeVedA/EpicEventsCRM--OCR_Mission11/blob/main/main.py",
                     },
                 ],
             },
@@ -484,6 +449,22 @@ const skillsData = [
                     {
                         title: "Plateforme de locations, Web App Django avec CI/CD, Docker, deployé sur Render, documenté sur ReadTheDocs",
                         url: "https://oclettings-ocr-mission12.readthedocs.io/fr/latest/index.html",
+                    },
+                ],
+            },
+            {
+                id: "rgpd",
+                name: "RGPD",
+                icon: "shield",
+                description: "Conformité RGPD",
+                githubLinks: [
+                    {
+                        title: "API RESTful sécurisée pour la gestion collaborative de projets et le suivi des problèmes techniques",
+                        url: "https://github.com/AdeVedA/SoftDeskAPI--OCR_Mission9",
+                    },
+                    {
+                        title: "Gestionnaire de relation client Epic Events en MVC - CLI",
+                        url: "https://github.com/AdeVedA/EpicEventsCRM--OCR_Mission11/blob/main/main.py",
                     },
                 ],
             },
