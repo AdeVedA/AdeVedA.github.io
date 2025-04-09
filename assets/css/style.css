@@ -499,7 +499,7 @@ footer {
 }
 
 .modal-dialog {
-    max-width: 900px !important;
+    max-width: 1100px !important;
 }
 
 .modal-lg {
@@ -522,6 +522,8 @@ footer {
 
 .modal-header .modal-title {
     color: var(--light-color);
+    width: 100%;
+    text-align: center;
 }
 
 .modal-header .btn-close {
@@ -545,11 +547,11 @@ footer {
 
 .github-links-list a {
     display: inline-block;
-    color: #64ffda;
+    color: #ffde57;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 4px;
-    background-color: rgba(100, 255, 218, 0.1);
+    background-color: rgba(55, 108, 171, 0.5);
     transition: all 0.3s ease;
 }
 

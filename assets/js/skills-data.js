@@ -430,10 +430,27 @@ const skillsData = [
                 ],
             },
             {
+                id: "jwt",
+                name: "Authentification & Sécurité",
+                icon: "key",
+                description:
+                    "Implémentation de l'authentification avec JSON Web Tokens, et bonnes pratiques de sécurité avec bcrypt",
+                githubLinks: [
+                    {
+                        title: "JSON Web Token - API RESTful sécurisée pour la gestion collaborative de projets et le suivi des problèmes techniques",
+                        url: "https://github.com/AdeVedA/SoftDeskAPI--OCR_Mission9/",
+                    },
+                    {
+                        title: "bcrypt - Gestionnaire de relation client Epic Events en MVC - CLI",
+                        url: "https://github.com/AdeVedA/EpicEventsCRM--OCR_Mission11/blob/main/models/models.py",
+                    },
+                ],
+            },
+            {
                 id: "rgpd",
-                name: "RGPD & Sécurité",
+                name: "RGPD",
                 icon: "shield",
-                description: "Conformité RGPD et bonnes pratiques de sécurité",
+                description: "Conformité RGPD",
                 githubLinks: [
                     {
                         title: "API RESTful sécurisée pour la gestion collaborative de projets et le suivi des problèmes techniques",
@@ -442,6 +459,18 @@ const skillsData = [
                     {
                         title: "Gestionnaire de relation client Epic Events en MVC - CLI",
                         url: "https://github.com/AdeVedA/EpicEventsCRM--OCR_Mission11/blob/main/main.py",
+                    },
+                ],
+            },
+            {
+                id: "api_client",
+                name: "API Clients",
+                icon: "bruno",
+                description: "Clients API utilisés",
+                githubLinks: [
+                    {
+                        title: "Bruno & Postman - API RESTful sécurisée pour la gestion collaborative de projets et le suivi des problèmes techniques",
+                        url: "https://github.com/AdeVedA/SoftDeskAPI--OCR_Mission9",
                     },
                 ],
             },
@@ -468,23 +497,6 @@ const skillsData = [
                     {
                         title: "La plupart des projets sur mon repository bénéficie du linting Flake8 et du formattage Black",
                         url: "https://github.com/AdeVedA?tab=repositories",
-                    },
-                ],
-            },
-            {
-                id: "jwt",
-                name: "Authentification",
-                icon: "key",
-                description:
-                    "Implémentation de l'authentification avec JSON Web Tokens, bcrypt",
-                githubLinks: [
-                    {
-                        title: "JSON Web Token - API RESTful sécurisée pour la gestion collaborative de projets et le suivi des problèmes techniques",
-                        url: "https://github.com/AdeVedA/SoftDeskAPI--OCR_Mission9/",
-                    },
-                    {
-                        title: "bcrypt - Gestionnaire de relation client Epic Events en MVC - CLI",
-                        url: "https://github.com/AdeVedA/EpicEventsCRM--OCR_Mission11/blob/main/models/models.py",
                     },
                 ],
             },
