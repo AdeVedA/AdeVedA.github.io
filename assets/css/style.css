@@ -266,6 +266,12 @@ h6 {
 }
 
 /* Section Compétences */
+
+/* pour décaler l'ancre du lien navbar competence */
+.ancre-decalee {
+    scroll-margin-top: 30px; /* la hauteur de la navbar */
+}
+
 #competences {
     background-color: var(--dark-color);
     padding-top: 100px;
