@@ -450,26 +450,25 @@ h6 {
     background-color: #12121e;
     padding-top: 100px;
     padding-bottom: 100px;
-    justify-content: center;
 }
 
 .contact-card {
-    min-width: 220px;
-    background: var(--card-bg);
+    max-width: 220px;
+    padding: 10px;
     border-radius: 10px;
+    background: var(--card-bg);
     overflow: hidden;
     border: 1px solid var(--card-border);
-    padding: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer horizontalement */
-    justify-content: space-around; /* Espacer les éléments verticalement */
-    height: 100%; /* hauteur fixe */
-    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 10px;
 }
 
 /*.contact-info h3,
