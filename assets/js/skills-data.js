@@ -37,7 +37,7 @@ const skillsData = [
                 githubLinks: [
                     {
                         title: "Thread manager : enregistrer/démarrer/stopper/unregister les threads Qt et Python",
-                        url: "https://github.com/AdeVedA/AInterfAI/blob/main/gui/thread_manager.py",
+                        url: "https://github.com/AdeVedA/AInterfAI/blob/main/utils/thread_manager.py",
                     },
                     {
                         title: "LLM worker",
@@ -291,7 +291,7 @@ const skillsData = [
                 icon: "sqlalchemy",
                 customIcon: true,
                 description:
-                    "Modélisation ORM (Session, Message, Folder, PromptConfig, LLMProperties) avec persistance SQLite",
+                    "Modélisation ORM (Session, Message, Folder, RoleConfig, LLMProperties) avec persistance SQLite",
                 githubLinks: [
                     {
                         title: "Modèles ORM (core/models.py)",
@@ -302,7 +302,7 @@ const skillsData = [
                         url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/session_manager.py",
                     },
                     {
-                        title: "Gestion des prompts (core/prompt_manager.py)",
+                        title: "Gestion (assemblage & execution) des prompts (core/prompt_manager.py)",
                         url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/prompt_manager.py",
                     },
                 ],
@@ -342,7 +342,7 @@ const skillsData = [
         name: "Modèles de Langage & IA",
         icon: "brain",
         description:
-            "Intégration de modèles locaux Ollama via LangChain, configuration des prompts et des hyper-paramètres, RAG",
+            "Intégration de modèles locaux Ollama via LangChain, configuration des rôles (prompts système et hyper-paramètres), RAG",
         size: "tall",
         skills: [
             {
@@ -379,6 +379,10 @@ const skillsData = [
                         title: "Initialisation du serveur Ollama et instanciation de LLM avec langChain_ollama.OllamaLLM dans core/llm_manager.py",
                         url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/llm_manager.py",
                     },
+                    {
+                        title: "Assemblage avec Langchain de prompt system et de l'historique de session pour requête normale ou RAG",
+                        url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/prompt_manager.py",
+                    },
                 ],
             },
             {
@@ -390,15 +394,15 @@ const skillsData = [
                     "Création, sauvegarde et chargement de rôles / prompts (français & anglais)",
                 githubLinks: [
                     {
-                        title: "Fichier de prompts par défaut",
-                        url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/prompt_config_defaults_fr.json",
+                        title: "Fichier de rôles (prompts système et paramètres) par défaut",
+                        url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/role_config_defaults_fr.json",
                     },
                     {
-                        title: "Gestion des configurations des prompts par défaut",
-                        url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/prompt_config_manager.py",
+                        title: "Gestion des configurations des rôles (prompts système & paramètres LLM) par défaut",
+                        url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/role_config_manager.py",
                     },
                     {
-                        title: "Assemblage avec Langchain de prompt system et de l'historique de session pour requête normale ou RAG",
+                        title: "Assemblage avec Langchain de prompt système et de l'historique de session pour requête normale ou RAG",
                         url: "https://github.com/AdeVedA/AInterfAI/blob/main/core/prompt_manager.py",
                     },
                 ],
